@@ -1,35 +1,23 @@
 package ejercicioPatronesNombre;
 
-public class Instituto {
+
+public class Instituto extends CentroEstudios{
 	
-	private String nombre;
-	private String localidad;
-	private int anyoFundacion;
-	private String alumnos;
+	private boolean tieneGradoSuperior;
+	private boolean tieneGradoMedio;
 	
-	public String getNombre() {
-		return this.nombre;
+	public boolean isTieneGradoSuperior() {
+		return this.tieneGradoSuperior;
 	}
-	public void setNombre(String _nombre) {
-		this.nombre = _nombre;
+	public void setTieneGradoSuperior(boolean _tieneGradoSuperior) {
+		this.tieneGradoSuperior = _tieneGradoSuperior;
 	}
-	public String getLocalidad() {
-		return this.localidad;
+	
+	public boolean isTieneGradoMedio() {
+		return this.tieneGradoMedio;
 	}
-	public void setLocalidad(String _localidad) {
-		this.localidad = _localidad;
-	}
-	public int getAnyoFundacion() {
-		return this.anyoFundacion;
-	}
-	public void setAnyoFundacion(int _anyoFundacion) {
-		this.anyoFundacion = _anyoFundacion;
-	}
-	public String getAlumnos() {
-		return this.alumnos;
-	}
-	public void setAlumnos(String _alumnos) {
-		this.alumnos = _alumnos;
+	public void setTieneGradoMedio(boolean _tieneGradoMedio) {
+		this.tieneGradoMedio = _tieneGradoMedio;
 	}
 	
 }
