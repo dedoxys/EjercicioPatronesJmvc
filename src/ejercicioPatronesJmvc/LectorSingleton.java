@@ -9,6 +9,10 @@ public class LectorSingleton {
 	
 	private static LectorSingleton instance;
 	
+	private LectorSingleton() {
+		
+	}
+	
 	public static LectorSingleton getInstance() throws InterruptedException {
 
 		if (instance == null) {
