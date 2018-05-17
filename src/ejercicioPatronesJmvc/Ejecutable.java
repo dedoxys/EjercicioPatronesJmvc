@@ -1,4 +1,4 @@
-package ejercicioPatronesNombre;
+package ejercicioPatronesJmvc;
 
 public class Ejecutable {
 
